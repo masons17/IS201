@@ -1,0 +1,40 @@
+.normal{
+font-weight: normal;
+}
+
+.italics{
+font-style: italic;
+}
+
+.color{
+color: rgb(116, 116, 116);
+}
+
+.font{
+    font-family: fantasy;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.center{
+text-align: center;
+}
+.color2{
+    color: white;
+}
+.size{
+    font-size: 16px;
+}
+.bold{
+    font-weight: bold;
+}
